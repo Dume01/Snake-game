@@ -1,0 +1,112 @@
+\hypertarget{new__st_8cpp}{}\doxysection{Try2/new\+\_\+st.cpp File Reference}
+\label{new__st_8cpp}\index{Try2/new\_st.cpp@{Try2/new\_st.cpp}}
+{\ttfamily \#include $<$GL/gl.\+h$>$}\newline
+{\ttfamily \#include $<$GL/glut.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}gam.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{new__st_8cpp_a06c6c391fc11d106e9909f0401b255b1}{COLUMNS}}~40
+\item 
+\#define \mbox{\hyperlink{new__st_8cpp_a3cfd3aa62338d12609f6d65bce97e9cd}{ROWS}}~40
+\item 
+\#define \mbox{\hyperlink{new__st_8cpp_ac92ca5ab87034a348decad7ee8d4bd1b}{FPS}}~10
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{new__st_8cpp_a6e93430c86f489ccab2aedc5ef1d4569}{display\+\_\+callback}} ()
+\item 
+void \mbox{\hyperlink{new__st_8cpp_ae515ab3ed5b1cd23781d8aaa2cbfbb67}{timer\+\_\+callback}} (int)
+\item 
+void \mbox{\hyperlink{new__st_8cpp_a9c79162c242d0e9b0c7e904a337af163}{reshape\+\_\+callback}} (int, int)
+\item 
+void \mbox{\hyperlink{new__st_8cpp_af0ee36eeb2102e06fef272fcbd14b79e}{keyboard\+\_\+callback}} (int, int, int)
+\item 
+void \mbox{\hyperlink{new__st_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}{init}} ()
+\item 
+int \mbox{\hyperlink{new__st_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{new__st_8cpp_a1fb9f73c50443018c691b0eaf1066004}{game\+Over}} =false
+\item 
+short \mbox{\hyperlink{new__st_8cpp_aad3ad33410f8ef9dc46b999a841a27cd}{s\+Direction}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{new__st_8cpp_a06c6c391fc11d106e9909f0401b255b1}\label{new__st_8cpp_a06c6c391fc11d106e9909f0401b255b1}} 
+\index{new\_st.cpp@{new\_st.cpp}!COLUMNS@{COLUMNS}}
+\index{COLUMNS@{COLUMNS}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{COLUMNS}{COLUMNS}}
+{\footnotesize\ttfamily \#define COLUMNS~40}
+
+\mbox{\Hypertarget{new__st_8cpp_ac92ca5ab87034a348decad7ee8d4bd1b}\label{new__st_8cpp_ac92ca5ab87034a348decad7ee8d4bd1b}} 
+\index{new\_st.cpp@{new\_st.cpp}!FPS@{FPS}}
+\index{FPS@{FPS}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{FPS}{FPS}}
+{\footnotesize\ttfamily \#define FPS~10}
+
+\mbox{\Hypertarget{new__st_8cpp_a3cfd3aa62338d12609f6d65bce97e9cd}\label{new__st_8cpp_a3cfd3aa62338d12609f6d65bce97e9cd}} 
+\index{new\_st.cpp@{new\_st.cpp}!ROWS@{ROWS}}
+\index{ROWS@{ROWS}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{ROWS}{ROWS}}
+{\footnotesize\ttfamily \#define ROWS~40}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{new__st_8cpp_a6e93430c86f489ccab2aedc5ef1d4569}\label{new__st_8cpp_a6e93430c86f489ccab2aedc5ef1d4569}} 
+\index{new\_st.cpp@{new\_st.cpp}!display\_callback@{display\_callback}}
+\index{display\_callback@{display\_callback}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{display\_callback()}{display\_callback()}}
+{\footnotesize\ttfamily void display\+\_\+callback (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{new__st_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}\label{new__st_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}} 
+\index{new\_st.cpp@{new\_st.cpp}!init@{init}}
+\index{init@{init}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{new__st_8cpp_af0ee36eeb2102e06fef272fcbd14b79e}\label{new__st_8cpp_af0ee36eeb2102e06fef272fcbd14b79e}} 
+\index{new\_st.cpp@{new\_st.cpp}!keyboard\_callback@{keyboard\_callback}}
+\index{keyboard\_callback@{keyboard\_callback}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{keyboard\_callback()}{keyboard\_callback()}}
+{\footnotesize\ttfamily void keyboard\+\_\+callback (\begin{DoxyParamCaption}\item[{int}]{key,  }\item[{int}]{,  }\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{new__st_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{new__st_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{new\_st.cpp@{new\_st.cpp}!main@{main}}
+\index{main@{main}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{new__st_8cpp_a9c79162c242d0e9b0c7e904a337af163}\label{new__st_8cpp_a9c79162c242d0e9b0c7e904a337af163}} 
+\index{new\_st.cpp@{new\_st.cpp}!reshape\_callback@{reshape\_callback}}
+\index{reshape\_callback@{reshape\_callback}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{reshape\_callback()}{reshape\_callback()}}
+{\footnotesize\ttfamily void reshape\+\_\+callback (\begin{DoxyParamCaption}\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{new__st_8cpp_ae515ab3ed5b1cd23781d8aaa2cbfbb67}\label{new__st_8cpp_ae515ab3ed5b1cd23781d8aaa2cbfbb67}} 
+\index{new\_st.cpp@{new\_st.cpp}!timer\_callback@{timer\_callback}}
+\index{timer\_callback@{timer\_callback}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{timer\_callback()}{timer\_callback()}}
+{\footnotesize\ttfamily void timer\+\_\+callback (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{new__st_8cpp_a1fb9f73c50443018c691b0eaf1066004}\label{new__st_8cpp_a1fb9f73c50443018c691b0eaf1066004}} 
+\index{new\_st.cpp@{new\_st.cpp}!gameOver@{gameOver}}
+\index{gameOver@{gameOver}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{gameOver}{gameOver}}
+{\footnotesize\ttfamily bool game\+Over =false}
+
+\mbox{\Hypertarget{new__st_8cpp_aad3ad33410f8ef9dc46b999a841a27cd}\label{new__st_8cpp_aad3ad33410f8ef9dc46b999a841a27cd}} 
+\index{new\_st.cpp@{new\_st.cpp}!sDirection@{sDirection}}
+\index{sDirection@{sDirection}!new\_st.cpp@{new\_st.cpp}}
+\doxysubsubsection{\texorpdfstring{sDirection}{sDirection}}
+{\footnotesize\ttfamily short s\+Direction\hspace{0.3cm}{\ttfamily [extern]}}
+

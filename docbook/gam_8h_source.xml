@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_gam_8h_source" xml:lang="en-US">
+<title>gam.h</title>
+<indexterm><primary>Try2/gam.h</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;GAME_H_INCLUDED</emphasis>
+2 <emphasis role="preprocessor">#define&#32;GAME_H_INCLUDED</emphasis>
+3 
+4 <emphasis role="preprocessor">#define&#32;UP&#32;1</emphasis>
+5 <emphasis role="preprocessor">#define&#32;DOWN&#32;-1</emphasis>
+6 <emphasis role="preprocessor">#define&#32;RIGHT&#32;2</emphasis>
+7 <emphasis role="preprocessor">#define&#32;LEFT&#32;-2</emphasis>
+8 <emphasis role="preprocessor">#define&#32;MAX&#32;60</emphasis>
+9 
+10 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_gam_8h_1acdc57ed4498489bca5a98e3d209cf962">initGrid</link>(<emphasis role="keywordtype">int</emphasis>,<emphasis role="keywordtype">int</emphasis>);
+11 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_gam_8h_1ab5faa224cc65d6fbce2935d0ed45f600">drawGrid</link>();
+12 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_gam_8h_1a4f4cdc5a6b882a5f3d7776e40a2fa505">drawSnake</link>();
+13 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_gam_8h_1a9d7b89a00246a9fa35ccc5c45ba5416f">drawfood</link>();
+14 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_gam_8h_1a0bb2b2fbd2f980617f67f1db54512d00">random</link>(<emphasis role="keywordtype">int</emphasis>&amp;,<emphasis role="keywordtype">int</emphasis>&amp;);
+15 
+16 <emphasis role="preprocessor">#endif</emphasis>
+</programlisting></section>

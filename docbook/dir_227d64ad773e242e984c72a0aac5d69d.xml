@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_227d64ad773e242e984c72a0aac5d69d" xml:lang="en-US">
+<title>Try2 Directory Reference</title>
+<indexterm><primary>Try2 Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_gam_8cpp">gam.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_gam_8h">gam.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_new__st_8cpp">new_st.cpp</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

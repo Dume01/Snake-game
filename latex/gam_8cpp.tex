@@ -1,0 +1,146 @@
+\hypertarget{gam_8cpp}{}\doxysection{Try2/gam.cpp File Reference}
+\label{gam_8cpp}\index{Try2/gam.cpp@{Try2/gam.cpp}}
+{\ttfamily \#include $<$GL/glut.\+h$>$}\newline
+{\ttfamily \#include $<$GL/gl.\+h$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include \char`\"{}gam.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{gam_8cpp_af371a41c7b2954a5b823e37d6844530e}{init\+Grid}} (int x, int y)
+\item 
+void \mbox{\hyperlink{gam_8cpp_a789c36854acb2c00573199fb92d34a42}{unit}} (int, int)
+\item 
+void \mbox{\hyperlink{gam_8cpp_ab5faa224cc65d6fbce2935d0ed45f600}{draw\+Grid}} ()
+\item 
+void \mbox{\hyperlink{gam_8cpp_a9d7b89a00246a9fa35ccc5c45ba5416f}{drawfood}} ()
+\item 
+void \mbox{\hyperlink{gam_8cpp_a4f4cdc5a6b882a5f3d7776e40a2fa505}{draw\+Snake}} ()
+\item 
+void \mbox{\hyperlink{gam_8cpp_a9ba9c9609d17ffd34f5fb96b8fc526ad}{random}} (int \&x, int \&y)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{gam_8cpp_a677dcac25ea1ea075389d4617987d24a}{gridX}}
+\item 
+int \mbox{\hyperlink{gam_8cpp_ab5212fb9aab1c6fc1fb904b86b6e51ff}{gridY}}
+\item 
+int \mbox{\hyperlink{gam_8cpp_aab935231c76f5dbf0f7d5cc051b85b6d}{snake\+\_\+len}} =5
+\item 
+short \mbox{\hyperlink{gam_8cpp_aad3ad33410f8ef9dc46b999a841a27cd}{s\+Direction}} =\mbox{\hyperlink{gam_8h_a80fb826a684cf3f0d306b22aa100ddac}{RIGHT}}
+\item 
+int \mbox{\hyperlink{gam_8cpp_a4f288f6ff0db04526233a5e84f31e6f3}{posX}} \mbox{[}60\mbox{]} =\{20,20,20,20,20\}
+\item 
+int \mbox{\hyperlink{gam_8cpp_a636191ddd9d77eda7844204dabbf75f2}{posY}} \mbox{[}60\mbox{]} =\{20,19,18,17,16\}
+\item 
+bool \mbox{\hyperlink{gam_8cpp_a6139946a5c5d52fc22f3ebdf5637db30}{food}} =true
+\item 
+int \mbox{\hyperlink{gam_8cpp_a3a23fb7b2bc7c0ef948386c9e5d68022}{foodX}}
+\item 
+int \mbox{\hyperlink{gam_8cpp_a251333d6046ab64c221109e083c97e70}{foodY}}
+\item 
+bool \mbox{\hyperlink{gam_8cpp_a1fb9f73c50443018c691b0eaf1066004}{game\+Over}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{gam_8cpp_a9d7b89a00246a9fa35ccc5c45ba5416f}\label{gam_8cpp_a9d7b89a00246a9fa35ccc5c45ba5416f}} 
+\index{gam.cpp@{gam.cpp}!drawfood@{drawfood}}
+\index{drawfood@{drawfood}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{drawfood()}{drawfood()}}
+{\footnotesize\ttfamily void drawfood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gam_8cpp_ab5faa224cc65d6fbce2935d0ed45f600}\label{gam_8cpp_ab5faa224cc65d6fbce2935d0ed45f600}} 
+\index{gam.cpp@{gam.cpp}!drawGrid@{drawGrid}}
+\index{drawGrid@{drawGrid}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{drawGrid()}{drawGrid()}}
+{\footnotesize\ttfamily void draw\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gam_8cpp_a4f4cdc5a6b882a5f3d7776e40a2fa505}\label{gam_8cpp_a4f4cdc5a6b882a5f3d7776e40a2fa505}} 
+\index{gam.cpp@{gam.cpp}!drawSnake@{drawSnake}}
+\index{drawSnake@{drawSnake}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{drawSnake()}{drawSnake()}}
+{\footnotesize\ttfamily void draw\+Snake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gam_8cpp_af371a41c7b2954a5b823e37d6844530e}\label{gam_8cpp_af371a41c7b2954a5b823e37d6844530e}} 
+\index{gam.cpp@{gam.cpp}!initGrid@{initGrid}}
+\index{initGrid@{initGrid}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{initGrid()}{initGrid()}}
+{\footnotesize\ttfamily void init\+Grid (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gam_8cpp_a9ba9c9609d17ffd34f5fb96b8fc526ad}\label{gam_8cpp_a9ba9c9609d17ffd34f5fb96b8fc526ad}} 
+\index{gam.cpp@{gam.cpp}!random@{random}}
+\index{random@{random}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{random()}{random()}}
+{\footnotesize\ttfamily void random (\begin{DoxyParamCaption}\item[{int \&}]{x,  }\item[{int \&}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gam_8cpp_a789c36854acb2c00573199fb92d34a42}\label{gam_8cpp_a789c36854acb2c00573199fb92d34a42}} 
+\index{gam.cpp@{gam.cpp}!unit@{unit}}
+\index{unit@{unit}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{unit()}{unit()}}
+{\footnotesize\ttfamily void unit (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{gam_8cpp_a6139946a5c5d52fc22f3ebdf5637db30}\label{gam_8cpp_a6139946a5c5d52fc22f3ebdf5637db30}} 
+\index{gam.cpp@{gam.cpp}!food@{food}}
+\index{food@{food}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{food}{food}}
+{\footnotesize\ttfamily bool food =true}
+
+\mbox{\Hypertarget{gam_8cpp_a3a23fb7b2bc7c0ef948386c9e5d68022}\label{gam_8cpp_a3a23fb7b2bc7c0ef948386c9e5d68022}} 
+\index{gam.cpp@{gam.cpp}!foodX@{foodX}}
+\index{foodX@{foodX}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{foodX}{foodX}}
+{\footnotesize\ttfamily int foodX}
+
+\mbox{\Hypertarget{gam_8cpp_a251333d6046ab64c221109e083c97e70}\label{gam_8cpp_a251333d6046ab64c221109e083c97e70}} 
+\index{gam.cpp@{gam.cpp}!foodY@{foodY}}
+\index{foodY@{foodY}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{foodY}{foodY}}
+{\footnotesize\ttfamily int foodY}
+
+\mbox{\Hypertarget{gam_8cpp_a1fb9f73c50443018c691b0eaf1066004}\label{gam_8cpp_a1fb9f73c50443018c691b0eaf1066004}} 
+\index{gam.cpp@{gam.cpp}!gameOver@{gameOver}}
+\index{gameOver@{gameOver}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{gameOver}{gameOver}}
+{\footnotesize\ttfamily bool game\+Over\hspace{0.3cm}{\ttfamily [extern]}}
+
+\mbox{\Hypertarget{gam_8cpp_a677dcac25ea1ea075389d4617987d24a}\label{gam_8cpp_a677dcac25ea1ea075389d4617987d24a}} 
+\index{gam.cpp@{gam.cpp}!gridX@{gridX}}
+\index{gridX@{gridX}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{gridX}{gridX}}
+{\footnotesize\ttfamily int gridX}
+
+\mbox{\Hypertarget{gam_8cpp_ab5212fb9aab1c6fc1fb904b86b6e51ff}\label{gam_8cpp_ab5212fb9aab1c6fc1fb904b86b6e51ff}} 
+\index{gam.cpp@{gam.cpp}!gridY@{gridY}}
+\index{gridY@{gridY}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{gridY}{gridY}}
+{\footnotesize\ttfamily int gridY}
+
+\mbox{\Hypertarget{gam_8cpp_a4f288f6ff0db04526233a5e84f31e6f3}\label{gam_8cpp_a4f288f6ff0db04526233a5e84f31e6f3}} 
+\index{gam.cpp@{gam.cpp}!posX@{posX}}
+\index{posX@{posX}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{posX}{posX}}
+{\footnotesize\ttfamily int posX\mbox{[}60\mbox{]} =\{20,20,20,20,20\}}
+
+\mbox{\Hypertarget{gam_8cpp_a636191ddd9d77eda7844204dabbf75f2}\label{gam_8cpp_a636191ddd9d77eda7844204dabbf75f2}} 
+\index{gam.cpp@{gam.cpp}!posY@{posY}}
+\index{posY@{posY}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{posY}{posY}}
+{\footnotesize\ttfamily int posY\mbox{[}60\mbox{]} =\{20,19,18,17,16\}}
+
+\mbox{\Hypertarget{gam_8cpp_aad3ad33410f8ef9dc46b999a841a27cd}\label{gam_8cpp_aad3ad33410f8ef9dc46b999a841a27cd}} 
+\index{gam.cpp@{gam.cpp}!sDirection@{sDirection}}
+\index{sDirection@{sDirection}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{sDirection}{sDirection}}
+{\footnotesize\ttfamily short s\+Direction =\mbox{\hyperlink{gam_8h_a80fb826a684cf3f0d306b22aa100ddac}{RIGHT}}}
+
+\mbox{\Hypertarget{gam_8cpp_aab935231c76f5dbf0f7d5cc051b85b6d}\label{gam_8cpp_aab935231c76f5dbf0f7d5cc051b85b6d}} 
+\index{gam.cpp@{gam.cpp}!snake\_len@{snake\_len}}
+\index{snake\_len@{snake\_len}!gam.cpp@{gam.cpp}}
+\doxysubsubsection{\texorpdfstring{snake\_len}{snake\_len}}
+{\footnotesize\ttfamily int snake\+\_\+len =5}
+

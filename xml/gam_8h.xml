@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="gam_8h" kind="file" language="C++">
+    <compoundname>gam.h</compoundname>
+    <includedby refid="gam_8cpp" local="yes">Try2/gam.cpp</includedby>
+    <includedby refid="new__st_8cpp" local="yes">Try2/new_st.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>Try2/gam.cpp</label>
+        <link refid="gam_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Try2/gam.h</label>
+        <link refid="gam_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Try2/new_st.cpp</label>
+        <link refid="new__st_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gam_8h_1a1965eaca47dbf3f87acdafc2208f04eb" prot="public" static="no">
+        <name>UP</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="4" column="9" bodyfile="Try2/gam.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="gam_8h_1a4193cd1c8c2e6ebd0e056fa2364a663f" prot="public" static="no">
+        <name>DOWN</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="5" column="9" bodyfile="Try2/gam.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="gam_8h_1a80fb826a684cf3f0d306b22aa100ddac" prot="public" static="no">
+        <name>RIGHT</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="6" column="9" bodyfile="Try2/gam.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="gam_8h_1a437ef08681e7210d6678427030446a54" prot="public" static="no">
+        <name>LEFT</name>
+        <initializer>-2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="7" column="9" bodyfile="Try2/gam.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="gam_8h_1a392fb874e547e582e9c66a08a1f23326" prot="public" static="no">
+        <name>MAX</name>
+        <initializer>60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="8" column="9" bodyfile="Try2/gam.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gam_8h_1acdc57ed4498489bca5a98e3d209cf962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initGrid</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>initGrid</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="10" column="6" bodyfile="Try2/gam.cpp" bodystart="20" bodyend="24" declfile="Try2/gam.h" declline="10" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8h_1ab5faa224cc65d6fbce2935d0ed45f600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void drawGrid</definition>
+        <argsstring>()</argsstring>
+        <name>drawGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="11" column="6" bodyfile="Try2/gam.cpp" bodystart="28" bodyend="38" declfile="Try2/gam.h" declline="11" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8h_1a4f4cdc5a6b882a5f3d7776e40a2fa505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void drawSnake</definition>
+        <argsstring>()</argsstring>
+        <name>drawSnake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="12" column="6" bodyfile="Try2/gam.cpp" bodystart="73" bodyend="110" declfile="Try2/gam.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8h_1a9d7b89a00246a9fa35ccc5c45ba5416f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void drawfood</definition>
+        <argsstring>()</argsstring>
+        <name>drawfood</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="13" column="6" bodyfile="Try2/gam.cpp" bodystart="62" bodyend="71" declfile="Try2/gam.h" declline="13" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8h_1a0bb2b2fbd2f980617f67f1db54512d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void random</definition>
+        <argsstring>(int &amp;, int &amp;)</argsstring>
+        <name>random</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.h" line="14" column="6" bodyfile="Try2/gam.cpp" bodystart="113" bodyend="123" declfile="Try2/gam.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GAME_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GAME_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="gam_8h_1a1965eaca47dbf3f87acdafc2208f04eb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UP<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="gam_8h_1a4193cd1c8c2e6ebd0e056fa2364a663f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DOWN<sp/>-1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="gam_8h_1a80fb826a684cf3f0d306b22aa100ddac" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RIGHT<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="gam_8h_1a437ef08681e7210d6678427030446a54" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LEFT<sp/>-2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="gam_8h_1a392fb874e547e582e9c66a08a1f23326" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX<sp/>60</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8h_1acdc57ed4498489bca5a98e3d209cf962" kindref="member">initGrid</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8h_1ab5faa224cc65d6fbce2935d0ed45f600" kindref="member">drawGrid</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8h_1a4f4cdc5a6b882a5f3d7776e40a2fa505" kindref="member">drawSnake</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8h_1a9d7b89a00246a9fa35ccc5c45ba5416f" kindref="member">drawfood</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8h_1a0bb2b2fbd2f980617f67f1db54512d00" kindref="member">random</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="Try2/gam.h"/>
+  </compounddef>
+</doxygen>

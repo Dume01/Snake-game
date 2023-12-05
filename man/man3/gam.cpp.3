@@ -1,0 +1,112 @@
+.TH "Try2/gam.cpp" 3 "Thu Nov 30 2023" "Project Paper" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Try2/gam.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <GL/glut\&.h>\fP
+.br
+\fC#include <GL/gl\&.h>\fP
+.br
+\fC#include <ctime>\fP
+.br
+\fC#include 'gam\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitGrid\fP (int x, int y)"
+.br
+.ti -1c
+.RI "void \fBunit\fP (int, int)"
+.br
+.ti -1c
+.RI "void \fBdrawGrid\fP ()"
+.br
+.ti -1c
+.RI "void \fBdrawfood\fP ()"
+.br
+.ti -1c
+.RI "void \fBdrawSnake\fP ()"
+.br
+.ti -1c
+.RI "void \fBrandom\fP (int &x, int &y)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "int \fBgridX\fP"
+.br
+.ti -1c
+.RI "int \fBgridY\fP"
+.br
+.ti -1c
+.RI "int \fBsnake_len\fP =5"
+.br
+.ti -1c
+.RI "short \fBsDirection\fP =\fBRIGHT\fP"
+.br
+.ti -1c
+.RI "int \fBposX\fP [60] ={20,20,20,20,20}"
+.br
+.ti -1c
+.RI "int \fBposY\fP [60] ={20,19,18,17,16}"
+.br
+.ti -1c
+.RI "bool \fBfood\fP =true"
+.br
+.ti -1c
+.RI "int \fBfoodX\fP"
+.br
+.ti -1c
+.RI "int \fBfoodY\fP"
+.br
+.ti -1c
+.RI "bool \fBgameOver\fP"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void drawfood ()"
+
+.SS "void drawGrid ()"
+
+.SS "void drawSnake ()"
+
+.SS "void initGrid (int x, int y)"
+
+.SS "void random (int & x, int & y)"
+
+.SS "void unit (int x, int y)"
+
+.SH "Variable Documentation"
+.PP 
+.SS "bool food =true"
+
+.SS "int foodX"
+
+.SS "int foodY"
+
+.SS "bool gameOver\fC [extern]\fP"
+
+.SS "int gridX"
+
+.SS "int gridY"
+
+.SS "int posX[60] ={20,20,20,20,20}"
+
+.SS "int posY[60] ={20,19,18,17,16}"
+
+.SS "short sDirection =\fBRIGHT\fP"
+
+.SS "int snake_len =5"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Project Paper from the source code\&.

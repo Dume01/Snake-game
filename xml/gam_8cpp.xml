@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="gam_8cpp" kind="file" language="C++">
+    <compoundname>gam.cpp</compoundname>
+    <includes local="no">GL/glut.h</includes>
+    <includes local="no">GL/gl.h</includes>
+    <includes local="no">ctime</includes>
+    <includes refid="gam_8h" local="yes">gam.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Try2/gam.cpp</label>
+        <link refid="gam_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gam.h</label>
+        <link refid="gam_8h"/>
+      </node>
+      <node id="3">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="2">
+        <label>GL/glut.h</label>
+      </node>
+      <node id="4">
+        <label>ctime</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gridX</definition>
+        <argsstring></argsstring>
+        <name>gridX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="6" column="5" bodyfile="Try2/gam.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gridY</definition>
+        <argsstring></argsstring>
+        <name>gridY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="6" column="10" bodyfile="Try2/gam.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int snake_len</definition>
+        <argsstring></argsstring>
+        <name>snake_len</name>
+        <initializer>=5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="8" column="5" bodyfile="Try2/gam.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short sDirection</definition>
+        <argsstring></argsstring>
+        <name>sDirection</name>
+        <initializer>=<ref refid="gam_8h_1a80fb826a684cf3f0d306b22aa100ddac" kindref="member">RIGHT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="10" column="7" bodyfile="Try2/gam.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int posX[60]</definition>
+        <argsstring>[60]</argsstring>
+        <name>posX</name>
+        <initializer>={20,20,20,20,20}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="12" column="5" bodyfile="Try2/gam.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int posY[60]</definition>
+        <argsstring>[60]</argsstring>
+        <name>posY</name>
+        <initializer>={20,19,18,17,16}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="12" column="9" bodyfile="Try2/gam.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool food</definition>
+        <argsstring></argsstring>
+        <name>food</name>
+        <initializer>=true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="14" column="6" bodyfile="Try2/gam.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int foodX</definition>
+        <argsstring></argsstring>
+        <name>foodX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="16" column="5" bodyfile="Try2/gam.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1a251333d6046ab64c221109e083c97e70" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int foodY</definition>
+        <argsstring></argsstring>
+        <name>foodY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="16" column="10" bodyfile="Try2/gam.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gam_8cpp_1a1fb9f73c50443018c691b0eaf1066004" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gameOver</definition>
+        <argsstring></argsstring>
+        <name>gameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="17" column="13" bodyfile="Try2/new_st.cpp" bodystart="10" bodyend="-1" declfile="Try2/gam.cpp" declline="17" declcolumn="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gam_8cpp_1af371a41c7b2954a5b823e37d6844530e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initGrid</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>initGrid</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="20" column="6" bodyfile="Try2/gam.cpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8cpp_1a789c36854acb2c00573199fb92d34a42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void unit</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>unit</name>
+        <param>
+          <type>int</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="40" column="6" bodyfile="Try2/gam.cpp" bodystart="40" bodyend="59" declfile="Try2/gam.cpp" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8cpp_1ab5faa224cc65d6fbce2935d0ed45f600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void drawGrid</definition>
+        <argsstring>()</argsstring>
+        <name>drawGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="28" column="6" bodyfile="Try2/gam.cpp" bodystart="28" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8cpp_1a9d7b89a00246a9fa35ccc5c45ba5416f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void drawfood</definition>
+        <argsstring>()</argsstring>
+        <name>drawfood</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="62" column="6" bodyfile="Try2/gam.cpp" bodystart="62" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8cpp_1a4f4cdc5a6b882a5f3d7776e40a2fa505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void drawSnake</definition>
+        <argsstring>()</argsstring>
+        <name>drawSnake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="73" column="6" bodyfile="Try2/gam.cpp" bodystart="73" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="gam_8cpp_1a9ba9c9609d17ffd34f5fb96b8fc526ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void random</definition>
+        <argsstring>(int &amp;x, int &amp;y)</argsstring>
+        <name>random</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Try2/gam.cpp" line="113" column="6" bodyfile="Try2/gam.cpp" bodystart="113" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;GL/glut.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;GL/gl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ctime&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gam_8h" kindref="compound">gam.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" kindref="member">gridX</ref>,<ref refid="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" kindref="member">gridY</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//Initial<sp/>snake<sp/>lenhth</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" kindref="member">snake_len</ref>=5;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//Initial<sp/>direction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd" kindref="member">sDirection</ref>=<ref refid="gam_8h_1a80fb826a684cf3f0d306b22aa100ddac" kindref="member">RIGHT</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//Initial<sp/>snake<sp/>pos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[60]={20,20,20,20,20},<ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[60]={20,19,18,17,16};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//Initially<sp/>food<sp/>is<sp/>present</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30" kindref="member">food</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//For<sp/>placement<sp/>of<sp/>food</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022" kindref="member">foodX</ref>,<ref refid="gam_8cpp_1a251333d6046ab64c221109e083c97e70" kindref="member">foodY</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a1fb9f73c50443018c691b0eaf1066004" kindref="member">gameOver</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//Initialize<sp/>grid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1af371a41c7b2954a5b823e37d6844530e" kindref="member">initGrid</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" kindref="member">gridX</ref>=x;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" kindref="member">gridY</ref>=y;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a789c36854acb2c00573199fb92d34a42" kindref="member">unit</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//For<sp/>Drawing<sp/>the<sp/>entire<sp/>grid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1ab5faa224cc65d6fbce2935d0ed45f600" kindref="member">drawGrid</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//For<sp/>making<sp/>grid<sp/>through<sp/>out<sp/>the<sp/>window</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x=0;x&lt;<ref refid="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" kindref="member">gridX</ref>;x++)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y=0;y&lt;<ref refid="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" kindref="member">gridY</ref>;y++)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a789c36854acb2c00573199fb92d34a42" kindref="member">unit</ref>(x,y);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//Helper<sp/>function<sp/>for<sp/>drawGrid<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a789c36854acb2c00573199fb92d34a42" kindref="member">unit</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x==0<sp/>||<sp/>y==0<sp/>||<sp/>x==<ref refid="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" kindref="member">gridX</ref>-1<sp/>||<sp/>y==<ref refid="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" kindref="member">gridY</ref>-1)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glLineWidth(3.0);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glColor3f(1.0,0.0,0.0);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glLineWidth(1.0);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glColor3f(0.0,0.0,0.0);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for<sp/>drawing<sp/>a<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>glBegin(GL_LINE_LOOP);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex2f(x,y);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex2f(x+1,y);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex2f(x,y+1);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex2f(x+1,y+1);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnd();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//For<sp/>Drawing<sp/>food</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a9d7b89a00246a9fa35ccc5c45ba5416f" kindref="member">drawfood</ref>()</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30" kindref="member">food</ref>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a9ba9c9609d17ffd34f5fb96b8fc526ad" kindref="member">random</ref>(<ref refid="gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022" kindref="member">foodX</ref>,<ref refid="gam_8cpp_1a251333d6046ab64c221109e083c97e70" kindref="member">foodY</ref>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30" kindref="member">food</ref>=</highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>glColor3f(1.0,0.0,0.0);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>glRectf(<ref refid="gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022" kindref="member">foodX</ref>,<ref refid="gam_8cpp_1a251333d6046ab64c221109e083c97e70" kindref="member">foodY</ref>,<ref refid="gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022" kindref="member">foodX</ref>+1,<ref refid="gam_8cpp_1a251333d6046ab64c221109e083c97e70" kindref="member">foodY</ref>+1);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//for<sp/>drawing<sp/>snake<sp/>and<sp/>incrementing<sp/>its<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a4f4cdc5a6b882a5f3d7776e40a2fa505" kindref="member">drawSnake</ref>()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=<ref refid="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" kindref="member">snake_len</ref>-1;i&gt;0;i--)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[i]=<ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[i-1];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[i]=<ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[i-1];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd" kindref="member">sDirection</ref>==<ref refid="gam_8h_1a1965eaca47dbf3f87acdafc2208f04eb" kindref="member">UP</ref>)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[0]++;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd" kindref="member">sDirection</ref>==<ref refid="gam_8h_1a4193cd1c8c2e6ebd0e056fa2364a663f" kindref="member">DOWN</ref>)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[0]--;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd" kindref="member">sDirection</ref>==<ref refid="gam_8h_1a80fb826a684cf3f0d306b22aa100ddac" kindref="member">RIGHT</ref>)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[0]++;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[0]--;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;<ref refid="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" kindref="member">snake_len</ref>;i++)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i==0)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glColor3f(0.0,1.0,0.0);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glColor3f(0.0,0.0,1.0);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glRectd(<ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[i],<ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[i],<ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[i]+1,<ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[i]+1);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[0]==0<sp/>||<sp/><ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[0]==<sp/><ref refid="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" kindref="member">gridX</ref>-1<sp/>||<sp/><ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[0]==0<sp/>||<sp/><ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[0]==<ref refid="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" kindref="member">gridY</ref>-1)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a1fb9f73c50443018c691b0eaf1066004" kindref="member">gameOver</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kindref="member">posX</ref>[0]==<ref refid="gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022" kindref="member">foodX</ref><sp/>&amp;&amp;<sp/><ref refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kindref="member">posY</ref>[0]==<ref refid="gam_8cpp_1a251333d6046ab64c221109e083c97e70" kindref="member">foodY</ref>)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30" kindref="member">food</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" kindref="member">snake_len</ref>++;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" kindref="member">snake_len</ref>&gt;60)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" kindref="member">snake_len</ref>=60;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//for<sp/>random<sp/>positioning<sp/>of<sp/>food</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gam_8cpp_1a9ba9c9609d17ffd34f5fb96b8fc526ad" kindref="member">random</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;y)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxiX=<ref refid="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" kindref="member">gridX</ref>-2;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>miniX=1;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxiY=<ref refid="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" kindref="member">gridY</ref>-2;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>miniY=1;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>srand(time(NULL));</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>x=miniX+rand()%(maxiX-miniX);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>y=miniY+rand()%(maxiY-miniY);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Try2/gam.cpp"/>
+  </compounddef>
+</doxygen>

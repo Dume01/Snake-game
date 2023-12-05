@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.5" xml:lang="en-US">
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="gam_8cpp" kind="file"><name>gam.cpp</name>
+    <member refid="gam_8cpp_1a677dcac25ea1ea075389d4617987d24a" kind="variable"><name>gridX</name></member>
+    <member refid="gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff" kind="variable"><name>gridY</name></member>
+    <member refid="gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d" kind="variable"><name>snake_len</name></member>
+    <member refid="gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd" kind="variable"><name>sDirection</name></member>
+    <member refid="gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3" kind="variable"><name>posX</name></member>
+    <member refid="gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2" kind="variable"><name>posY</name></member>
+    <member refid="gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30" kind="variable"><name>food</name></member>
+    <member refid="gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022" kind="variable"><name>foodX</name></member>
+    <member refid="gam_8cpp_1a251333d6046ab64c221109e083c97e70" kind="variable"><name>foodY</name></member>
+    <member refid="gam_8cpp_1a1fb9f73c50443018c691b0eaf1066004" kind="variable"><name>gameOver</name></member>
+    <member refid="gam_8cpp_1af371a41c7b2954a5b823e37d6844530e" kind="function"><name>initGrid</name></member>
+    <member refid="gam_8cpp_1a789c36854acb2c00573199fb92d34a42" kind="function"><name>unit</name></member>
+    <member refid="gam_8cpp_1ab5faa224cc65d6fbce2935d0ed45f600" kind="function"><name>drawGrid</name></member>
+    <member refid="gam_8cpp_1a9d7b89a00246a9fa35ccc5c45ba5416f" kind="function"><name>drawfood</name></member>
+    <member refid="gam_8cpp_1a4f4cdc5a6b882a5f3d7776e40a2fa505" kind="function"><name>drawSnake</name></member>
+    <member refid="gam_8cpp_1a9ba9c9609d17ffd34f5fb96b8fc526ad" kind="function"><name>random</name></member>
+  </compound>
+  <compound refid="gam_8h" kind="file"><name>gam.h</name>
+    <member refid="gam_8h_1a1965eaca47dbf3f87acdafc2208f04eb" kind="define"><name>UP</name></member>
+    <member refid="gam_8h_1a4193cd1c8c2e6ebd0e056fa2364a663f" kind="define"><name>DOWN</name></member>
+    <member refid="gam_8h_1a80fb826a684cf3f0d306b22aa100ddac" kind="define"><name>RIGHT</name></member>
+    <member refid="gam_8h_1a437ef08681e7210d6678427030446a54" kind="define"><name>LEFT</name></member>
+    <member refid="gam_8h_1a392fb874e547e582e9c66a08a1f23326" kind="define"><name>MAX</name></member>
+    <member refid="gam_8h_1acdc57ed4498489bca5a98e3d209cf962" kind="function"><name>initGrid</name></member>
+    <member refid="gam_8h_1ab5faa224cc65d6fbce2935d0ed45f600" kind="function"><name>drawGrid</name></member>
+    <member refid="gam_8h_1a4f4cdc5a6b882a5f3d7776e40a2fa505" kind="function"><name>drawSnake</name></member>
+    <member refid="gam_8h_1a9d7b89a00246a9fa35ccc5c45ba5416f" kind="function"><name>drawfood</name></member>
+    <member refid="gam_8h_1a0bb2b2fbd2f980617f67f1db54512d00" kind="function"><name>random</name></member>
+  </compound>
+  <compound refid="new__st_8cpp" kind="file"><name>new_st.cpp</name>
+    <member refid="new__st_8cpp_1a06c6c391fc11d106e9909f0401b255b1" kind="define"><name>COLUMNS</name></member>
+    <member refid="new__st_8cpp_1a3cfd3aa62338d12609f6d65bce97e9cd" kind="define"><name>ROWS</name></member>
+    <member refid="new__st_8cpp_1ac92ca5ab87034a348decad7ee8d4bd1b" kind="define"><name>FPS</name></member>
+    <member refid="new__st_8cpp_1a1fb9f73c50443018c691b0eaf1066004" kind="variable"><name>gameOver</name></member>
+    <member refid="new__st_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd" kind="variable"><name>sDirection</name></member>
+    <member refid="new__st_8cpp_1a6e93430c86f489ccab2aedc5ef1d4569" kind="function"><name>display_callback</name></member>
+    <member refid="new__st_8cpp_1ae515ab3ed5b1cd23781d8aaa2cbfbb67" kind="function"><name>timer_callback</name></member>
+    <member refid="new__st_8cpp_1a9c79162c242d0e9b0c7e904a337af163" kind="function"><name>reshape_callback</name></member>
+    <member refid="new__st_8cpp_1af0ee36eeb2102e06fef272fcbd14b79e" kind="function"><name>keyboard_callback</name></member>
+    <member refid="new__st_8cpp_1a02fd73d861ef2e4aabb38c0c9ff82947" kind="function"><name>init</name></member>
+    <member refid="new__st_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_227d64ad773e242e984c72a0aac5d69d" kind="dir"><name>Try2</name>
+  </compound>
+</doxygenindex>

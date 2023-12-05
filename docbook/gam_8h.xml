@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_gam_8h" xml:lang="en-US">
+<title>Try2/gam.h File Reference</title>
+<indexterm><primary>Try2/gam.h</primary></indexterm>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_gam_8h_1a1965eaca47dbf3f87acdafc2208f04eb">UP</link>&#160;&#160;&#160;1</para>
+</listitem>
+            <listitem><para>#define <link linkend="_gam_8h_1a4193cd1c8c2e6ebd0e056fa2364a663f">DOWN</link>&#160;&#160;&#160;-1</para>
+</listitem>
+            <listitem><para>#define <link linkend="_gam_8h_1a80fb826a684cf3f0d306b22aa100ddac">RIGHT</link>&#160;&#160;&#160;2</para>
+</listitem>
+            <listitem><para>#define <link linkend="_gam_8h_1a437ef08681e7210d6678427030446a54">LEFT</link>&#160;&#160;&#160;-2</para>
+</listitem>
+            <listitem><para>#define <link linkend="_gam_8h_1a392fb874e547e582e9c66a08a1f23326">MAX</link>&#160;&#160;&#160;60</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_gam_8h_1acdc57ed4498489bca5a98e3d209cf962">initGrid</link> (int, int)</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8h_1ab5faa224cc65d6fbce2935d0ed45f600">drawGrid</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8h_1a4f4cdc5a6b882a5f3d7776e40a2fa505">drawSnake</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8h_1a9d7b89a00246a9fa35ccc5c45ba5416f">drawfood</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8h_1a0bb2b2fbd2f980617f67f1db54512d00">random</link> (int &amp;, int &amp;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_gam_8h_1a4193cd1c8c2e6ebd0e056fa2364a663f"/><section>
+    <title>DOWN</title>
+<indexterm><primary>DOWN</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>DOWN</secondary></indexterm>
+<para><computeroutput>#define DOWN&#160;&#160;&#160;-1</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1a437ef08681e7210d6678427030446a54"/><section>
+    <title>LEFT</title>
+<indexterm><primary>LEFT</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>LEFT</secondary></indexterm>
+<para><computeroutput>#define LEFT&#160;&#160;&#160;-2</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1a392fb874e547e582e9c66a08a1f23326"/><section>
+    <title>MAX</title>
+<indexterm><primary>MAX</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>MAX</secondary></indexterm>
+<para><computeroutput>#define MAX&#160;&#160;&#160;60</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1a80fb826a684cf3f0d306b22aa100ddac"/><section>
+    <title>RIGHT</title>
+<indexterm><primary>RIGHT</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>RIGHT</secondary></indexterm>
+<para><computeroutput>#define RIGHT&#160;&#160;&#160;2</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1a1965eaca47dbf3f87acdafc2208f04eb"/><section>
+    <title>UP</title>
+<indexterm><primary>UP</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>UP</secondary></indexterm>
+<para><computeroutput>#define UP&#160;&#160;&#160;1</computeroutput></para></section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_gam_8h_1a9d7b89a00246a9fa35ccc5c45ba5416f"/><section>
+    <title>drawfood()</title>
+<indexterm><primary>drawfood</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>drawfood</secondary></indexterm>
+<para><computeroutput>void drawfood ( )</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1ab5faa224cc65d6fbce2935d0ed45f600"/><section>
+    <title>drawGrid()</title>
+<indexterm><primary>drawGrid</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>drawGrid</secondary></indexterm>
+<para><computeroutput>void drawGrid ( )</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1a4f4cdc5a6b882a5f3d7776e40a2fa505"/><section>
+    <title>drawSnake()</title>
+<indexterm><primary>drawSnake</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>drawSnake</secondary></indexterm>
+<para><computeroutput>void drawSnake ( )</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1acdc57ed4498489bca5a98e3d209cf962"/><section>
+    <title>initGrid()</title>
+<indexterm><primary>initGrid</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>initGrid</secondary></indexterm>
+<para><computeroutput>void initGrid (int x, int y)</computeroutput></para></section>
+<anchor xml:id="_gam_8h_1a0bb2b2fbd2f980617f67f1db54512d00"/><section>
+    <title>random()</title>
+<indexterm><primary>random</primary><secondary>gam.h</secondary></indexterm>
+<indexterm><primary>gam.h</primary><secondary>random</secondary></indexterm>
+<para><computeroutput>void random (int &amp; x, int &amp; y)</computeroutput></para></section>
+</section>
+</section>

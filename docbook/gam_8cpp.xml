@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_gam_8cpp" xml:lang="en-US">
+<title>Try2/gam.cpp File Reference</title>
+<indexterm><primary>Try2/gam.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;GL/glut.h&gt;<?linebreak?>#include &lt;GL/gl.h&gt;<?linebreak?>#include &lt;ctime&gt;<?linebreak?>#include &quot;gam.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_gam_8cpp_1af371a41c7b2954a5b823e37d6844530e">initGrid</link> (int x, int y)</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8cpp_1a789c36854acb2c00573199fb92d34a42">unit</link> (int, int)</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8cpp_1ab5faa224cc65d6fbce2935d0ed45f600">drawGrid</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8cpp_1a9d7b89a00246a9fa35ccc5c45ba5416f">drawfood</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8cpp_1a4f4cdc5a6b882a5f3d7776e40a2fa505">drawSnake</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_gam_8cpp_1a9ba9c9609d17ffd34f5fb96b8fc526ad">random</link> (int &amp;x, int &amp;y)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_gam_8cpp_1a677dcac25ea1ea075389d4617987d24a">gridX</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff">gridY</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d">snake_len</link> =5</para>
+</listitem>
+            <listitem><para>short <link linkend="_gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd">sDirection</link> =<link linkend="_gam_8h_1a80fb826a684cf3f0d306b22aa100ddac">RIGHT</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3">posX</link> [60] ={20,20,20,20,20}</para>
+</listitem>
+            <listitem><para>int <link linkend="_gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2">posY</link> [60] ={20,19,18,17,16}</para>
+</listitem>
+            <listitem><para>bool <link linkend="_gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30">food</link> =true</para>
+</listitem>
+            <listitem><para>int <link linkend="_gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022">foodX</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_gam_8cpp_1a251333d6046ab64c221109e083c97e70">foodY</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_gam_8cpp_1a1fb9f73c50443018c691b0eaf1066004">gameOver</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_gam_8cpp_1a9d7b89a00246a9fa35ccc5c45ba5416f"/><section>
+    <title>drawfood()</title>
+<indexterm><primary>drawfood</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>drawfood</secondary></indexterm>
+<para><computeroutput>void drawfood ( )</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1ab5faa224cc65d6fbce2935d0ed45f600"/><section>
+    <title>drawGrid()</title>
+<indexterm><primary>drawGrid</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>drawGrid</secondary></indexterm>
+<para><computeroutput>void drawGrid ( )</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a4f4cdc5a6b882a5f3d7776e40a2fa505"/><section>
+    <title>drawSnake()</title>
+<indexterm><primary>drawSnake</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>drawSnake</secondary></indexterm>
+<para><computeroutput>void drawSnake ( )</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1af371a41c7b2954a5b823e37d6844530e"/><section>
+    <title>initGrid()</title>
+<indexterm><primary>initGrid</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>initGrid</secondary></indexterm>
+<para><computeroutput>void initGrid (int x, int y)</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a9ba9c9609d17ffd34f5fb96b8fc526ad"/><section>
+    <title>random()</title>
+<indexterm><primary>random</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>random</secondary></indexterm>
+<para><computeroutput>void random (int &amp; x, int &amp; y)</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a789c36854acb2c00573199fb92d34a42"/><section>
+    <title>unit()</title>
+<indexterm><primary>unit</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>unit</secondary></indexterm>
+<para><computeroutput>void unit (int x, int y)</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_gam_8cpp_1a6139946a5c5d52fc22f3ebdf5637db30"/><section>
+    <title>food</title>
+<indexterm><primary>food</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>food</secondary></indexterm>
+<para><computeroutput>bool food =true</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a3a23fb7b2bc7c0ef948386c9e5d68022"/><section>
+    <title>foodX</title>
+<indexterm><primary>foodX</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>foodX</secondary></indexterm>
+<para><computeroutput>int foodX</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a251333d6046ab64c221109e083c97e70"/><section>
+    <title>foodY</title>
+<indexterm><primary>foodY</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>foodY</secondary></indexterm>
+<para><computeroutput>int foodY</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a1fb9f73c50443018c691b0eaf1066004"/><section>
+    <title>gameOver</title>
+<indexterm><primary>gameOver</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>gameOver</secondary></indexterm>
+<para><computeroutput>bool gameOver<computeroutput>[extern]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a677dcac25ea1ea075389d4617987d24a"/><section>
+    <title>gridX</title>
+<indexterm><primary>gridX</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>gridX</secondary></indexterm>
+<para><computeroutput>int gridX</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1ab5212fb9aab1c6fc1fb904b86b6e51ff"/><section>
+    <title>gridY</title>
+<indexterm><primary>gridY</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>gridY</secondary></indexterm>
+<para><computeroutput>int gridY</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a4f288f6ff0db04526233a5e84f31e6f3"/><section>
+    <title>posX</title>
+<indexterm><primary>posX</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>posX</secondary></indexterm>
+<para><computeroutput>int posX[60] ={20,20,20,20,20}</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1a636191ddd9d77eda7844204dabbf75f2"/><section>
+    <title>posY</title>
+<indexterm><primary>posY</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>posY</secondary></indexterm>
+<para><computeroutput>int posY[60] ={20,19,18,17,16}</computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd"/><section>
+    <title>sDirection</title>
+<indexterm><primary>sDirection</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>sDirection</secondary></indexterm>
+<para><computeroutput>short sDirection =<link linkend="_gam_8h_1a80fb826a684cf3f0d306b22aa100ddac">RIGHT</link></computeroutput></para></section>
+<anchor xml:id="_gam_8cpp_1aab935231c76f5dbf0f7d5cc051b85b6d"/><section>
+    <title>snake_len</title>
+<indexterm><primary>snake_len</primary><secondary>gam.cpp</secondary></indexterm>
+<indexterm><primary>gam.cpp</primary><secondary>snake_len</secondary></indexterm>
+<para><computeroutput>int snake_len =5</computeroutput></para></section>
+</section>
+</section>

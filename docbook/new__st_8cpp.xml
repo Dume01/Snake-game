@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_new__st_8cpp" xml:lang="en-US">
+<title>Try2/new_st.cpp File Reference</title>
+<indexterm><primary>Try2/new_st.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;GL/gl.h&gt;<?linebreak?>#include &lt;GL/glut.h&gt;<?linebreak?>#include &quot;gam.h&quot;<?linebreak?>#include &lt;iostream&gt;<?linebreak?></programlisting><simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_new__st_8cpp_1a06c6c391fc11d106e9909f0401b255b1">COLUMNS</link>&#160;&#160;&#160;40</para>
+</listitem>
+            <listitem><para>#define <link linkend="_new__st_8cpp_1a3cfd3aa62338d12609f6d65bce97e9cd">ROWS</link>&#160;&#160;&#160;40</para>
+</listitem>
+            <listitem><para>#define <link linkend="_new__st_8cpp_1ac92ca5ab87034a348decad7ee8d4bd1b">FPS</link>&#160;&#160;&#160;10</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_new__st_8cpp_1a6e93430c86f489ccab2aedc5ef1d4569">display_callback</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_new__st_8cpp_1ae515ab3ed5b1cd23781d8aaa2cbfbb67">timer_callback</link> (int)</para>
+</listitem>
+            <listitem><para>void <link linkend="_new__st_8cpp_1a9c79162c242d0e9b0c7e904a337af163">reshape_callback</link> (int, int)</para>
+</listitem>
+            <listitem><para>void <link linkend="_new__st_8cpp_1af0ee36eeb2102e06fef272fcbd14b79e">keyboard_callback</link> (int, int, int)</para>
+</listitem>
+            <listitem><para>void <link linkend="_new__st_8cpp_1a02fd73d861ef2e4aabb38c0c9ff82947">init</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_new__st_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627">main</link> (int argc, char **argv)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_new__st_8cpp_1a1fb9f73c50443018c691b0eaf1066004">gameOver</link> =false</para>
+</listitem>
+            <listitem><para>short <link linkend="_new__st_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd">sDirection</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_new__st_8cpp_1a06c6c391fc11d106e9909f0401b255b1"/><section>
+    <title>COLUMNS</title>
+<indexterm><primary>COLUMNS</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>COLUMNS</secondary></indexterm>
+<para><computeroutput>#define COLUMNS&#160;&#160;&#160;40</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1ac92ca5ab87034a348decad7ee8d4bd1b"/><section>
+    <title>FPS</title>
+<indexterm><primary>FPS</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>FPS</secondary></indexterm>
+<para><computeroutput>#define FPS&#160;&#160;&#160;10</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1a3cfd3aa62338d12609f6d65bce97e9cd"/><section>
+    <title>ROWS</title>
+<indexterm><primary>ROWS</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>ROWS</secondary></indexterm>
+<para><computeroutput>#define ROWS&#160;&#160;&#160;40</computeroutput></para></section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_new__st_8cpp_1a6e93430c86f489ccab2aedc5ef1d4569"/><section>
+    <title>display_callback()</title>
+<indexterm><primary>display_callback</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>display_callback</secondary></indexterm>
+<para><computeroutput>void display_callback ( )</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1a02fd73d861ef2e4aabb38c0c9ff82947"/><section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void init ( )</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1af0ee36eeb2102e06fef272fcbd14b79e"/><section>
+    <title>keyboard_callback()</title>
+<indexterm><primary>keyboard_callback</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>keyboard_callback</secondary></indexterm>
+<para><computeroutput>void keyboard_callback (int key, int , int )</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main (int argc, char ** argv)</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1a9c79162c242d0e9b0c7e904a337af163"/><section>
+    <title>reshape_callback()</title>
+<indexterm><primary>reshape_callback</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>reshape_callback</secondary></indexterm>
+<para><computeroutput>void reshape_callback (int w, int h)</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1ae515ab3ed5b1cd23781d8aaa2cbfbb67"/><section>
+    <title>timer_callback()</title>
+<indexterm><primary>timer_callback</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>timer_callback</secondary></indexterm>
+<para><computeroutput>void timer_callback (int )</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_new__st_8cpp_1a1fb9f73c50443018c691b0eaf1066004"/><section>
+    <title>gameOver</title>
+<indexterm><primary>gameOver</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>gameOver</secondary></indexterm>
+<para><computeroutput>bool gameOver =false</computeroutput></para></section>
+<anchor xml:id="_new__st_8cpp_1aad3ad33410f8ef9dc46b999a841a27cd"/><section>
+    <title>sDirection</title>
+<indexterm><primary>sDirection</primary><secondary>new_st.cpp</secondary></indexterm>
+<indexterm><primary>new_st.cpp</primary><secondary>sDirection</secondary></indexterm>
+<para><computeroutput>short sDirection<computeroutput>[extern]</computeroutput></computeroutput></para></section>
+</section>
+</section>

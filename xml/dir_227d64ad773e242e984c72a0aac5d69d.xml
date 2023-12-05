@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_227d64ad773e242e984c72a0aac5d69d" kind="dir">
+    <compoundname>Try2</compoundname>
+    <innerfile refid="gam_8cpp">gam.cpp</innerfile>
+    <innerfile refid="gam_8h">gam.h</innerfile>
+    <innerfile refid="new__st_8cpp">new_st.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Try2/"/>
+  </compounddef>
+</doxygen>
